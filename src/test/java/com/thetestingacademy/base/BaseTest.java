@@ -1,4 +1,4 @@
 package com.thetestingacademy.base;
 
-public class BaseTest {
+public class BaseTest   {
 }

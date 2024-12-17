@@ -1,4 +1,4 @@
 package com.thetestingacademy.listeners;
 
-public class RetryListeners {
+public class RetryListener {
 }
