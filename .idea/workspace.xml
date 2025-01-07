@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd5cb40b-3f75-41e3-83cd-b01c5b75aa0b" name="Changes" comment="Initial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/TokenResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/crud/testVerifyCreateBoookingPost01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/sample/TestIntegrationFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/modules/PayloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/asserts/AssertActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/asserts/AssertActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/crud/TestIntegrationFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/crud/TestIntegrationFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/sample/TestIntegrationSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/sample/TestIntegrationSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng-qa-env.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-qa-env.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +34,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "HimanshuBathamdeqode"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HimanshuBathamdeqode&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HimanshuBathamdeqode/APIAutomationFrameworkATB8x.git",
-    "accountId": "1e919ec7-2996-4759-96ae-28dc017fb743"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HimanshuBathamdeqode/APIAutomationFrameworkATB8x.git&quot;,
+    &quot;accountId&quot;: &quot;1e919ec7-2996-4759-96ae-28dc017fb743&quot;
   }
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -46,41 +60,129 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HELLOWORLD.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/deq/IdeaProjects/APIAutomationFrameworkATB8x/src/main/java/com/thetestingacademy/pojos",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HELLOWORLD.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG./home/deq/IdeaProjects/APIAutomationFrameworkATB8x/testng-qa-env.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestIntegrationFlow.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestIntegrationFlow.testCreateBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestIntegrationFlow.testVerifyBookingID.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testVerifyCreateBoookingPost01.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testVerifyCreateBoookingPost01.testVerifyCreateBoookingPost01.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/deq/IdeaProjects/APIAutomationFrameworkATB8x/src/main/java/com/thetestingacademy/pojos&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos" />
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thetestingacademy.tests.integration.sample" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="HELLOWORLD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.HELLOWORLD" />
+  <component name="RunManager" selected="TestNG.TestIntegrationFlow">
+    <configuration name="TestIntegrationFlow" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIAutomationFrameworkATB8x" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thetestingacademy.*" />
+          <option name="PATTERN" value="com.thetestingacademy.tests.integration.crud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.tests.integration.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.integration.crud.TestIntegrationFlow" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIntegrationFlow.testCreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameworkATB8x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.tests.integration.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.tests.integration.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.integration.crud.TestIntegrationFlow" />
+      <option name="METHOD_NAME" value="testCreateBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIntegrationFlow.testVerifyBookingID" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameworkATB8x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.tests.integration.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.tests.integration.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.integration.crud.TestIntegrationFlow" />
+      <option name="METHOD_NAME" value="testVerifyBookingID" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testVerifyCreateBoookingPost01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameworkATB8x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.tests.integration.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.tests.integration.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.integration.crud.testVerifyCreateBoookingPost01" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testVerifyCreateBoookingPost01.testVerifyCreateBoookingPost01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameworkATB8x" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thetestingacademy.tests.integration.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thetestingacademy.tests.integration.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.thetestingacademy.tests.integration.crud.testVerifyCreateBoookingPost01" />
+      <option name="METHOD_NAME" value="testVerifyCreateBoookingPost01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HELLOWORLD" />
+        <item itemvalue="TestNG.TestIntegrationFlow" />
+        <item itemvalue="TestNG.TestIntegrationFlow.testVerifyBookingID" />
+        <item itemvalue="TestNG.TestIntegrationFlow.testCreateBooking" />
+        <item itemvalue="TestNG.testVerifyCreateBoookingPost01" />
+        <item itemvalue="TestNG.testVerifyCreateBoookingPost01.testVerifyCreateBoookingPost01" />
       </list>
     </recent_temporary>
   </component>
@@ -101,11 +203,52 @@
       <option name="project" value="LOCAL" />
       <updated>1734462138156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial">
+      <option name="closed" value="true" />
+      <created>1734462325271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734462325272</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thetestingacademy/modules/PayloadManager.java</url>
+          <line>13</line>
+          <properties class="com.thetestingacademy.modules.PayloadManager" method="createPayloadBookingAsString">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/BaseTest.java</url>
+          <line>26</line>
+          <properties class="com.thetestingacademy.base.BaseTest" method="setUp">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/thetestingacademy/modules/PayloadManager.java</url>
+          <line>70</line>
+          <properties class="com.thetestingacademy.modules.PayloadManager" method="getTokenFromJSON">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
