@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd5cb40b-3f75-41e3-83cd-b01c5b75aa0b" name="Changes" comment="Initial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/TokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/crud/testVerifyCreateBoookingPost01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/sample/TestIntegrationFlow.java" afterDir="false" />
+    <list default="true" id="cd5cb40b-3f75-41e3-83cd-b01c5b75aa0b" name="Changes" comment="13th december">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/modules/PayloadManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thetestingacademy/pojos/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/asserts/AssertActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/asserts/AssertActions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/crud/TestIntegrationFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/crud/TestIntegrationFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/sample/TestIntegrationSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thetestingacademy/tests/integration/sample/TestIntegrationSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng-qa-env.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng-qa-env.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,12 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1734462325272</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="13th december">
+      <option name="closed" value="true" />
+      <created>1736273913678</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736273913678</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
+    <MESSAGE value="13th december" />
+    <option name="LAST_COMMIT_MESSAGE" value="13th december" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
